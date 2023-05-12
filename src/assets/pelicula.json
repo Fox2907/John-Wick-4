@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "movie-name": "John Wick 4",
+    "genre": ["Action","Crime","Thriller"],
+    "imgsrc": "./static/images/John_wick_4.jpg",
+    "plot": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes."
+}

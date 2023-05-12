@@ -1,0 +1,13 @@
+.booking-button-content{
+    padding: 83px 40px 17px;
+}
+
+.booking-button-content button {
+    background-color: #6A536A;
+    width: 309px;
+    height: 46px;
+    left: 41px;
+    top: 781px;
+    border: 1px solid #6A536A;
+    border-radius: 16px;
+}

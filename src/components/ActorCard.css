@@ -1,0 +1,15 @@
+.actor-container{
+    display: flex;
+    width: 62px;
+    flex-direction: column;
+    align-items: center;
+}
+.actor-container img{
+    height: 52px;
+    width: 34px;
+    border-radius: 17px;
+}
+.actor-container span{
+    font-size: 8.64px;
+    line-height: 13px;
+}

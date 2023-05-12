@@ -1,0 +1,12 @@
+.movie-main-container img{
+    border: none;
+    width: 100%;
+}
+
+.movie-main-container span{
+    display: flex;
+    padding: 7px 48px 0px;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 14px;
+}
