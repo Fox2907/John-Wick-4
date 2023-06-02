@@ -1,10 +1,8 @@
-import React from 'react'
 import { Chip } from './Chip'
 import './Genre.css'
 
-const Genre = ({movies}) => {
-  
-  const genre = movies.genre
+const Genre = ({peliculas}) => {
+  const genre = peliculas.Genre ? peliculas.Genre.split(", ") : [];
   return (
     <div className='genre-container'>
         {

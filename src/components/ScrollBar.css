@@ -1,0 +1,13 @@
+.scroll-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; /* Color transparente para la barra y el track */
+  }
+  
+  .peliculas{
+    display: flex;
+    width: 500px;
+    height: 121px;
+    margin-left: 12px;
+  }

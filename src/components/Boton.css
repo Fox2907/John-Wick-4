@@ -1,0 +1,9 @@
+.boton-menu {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    background-color: #6a536a;
+    border: none;
+    align-items: center;
+  }
+  

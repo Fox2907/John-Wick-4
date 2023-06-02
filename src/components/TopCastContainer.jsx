@@ -4,6 +4,7 @@ import actors from '../assets/actor.json'
 import './TopCastContainer.css'
 
 export const TopCastContainer = () => {
+  
   return (
     <section className='top-cast-container'>
       <h6>Top cast</h6>

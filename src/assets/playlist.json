@@ -1,0 +1,18 @@
+[
+    {"id": 1,
+     "imgsrc": "./static/images/1.jpg",
+     "Category": "Recent Movies"
+    },
+    {"id": 2,
+     "imgsrc": "/static/images/2.jpg",
+     "Category": "Coming Soon"
+    },
+    {"id": 3,
+     "imgsrc": "/static/images/3.jpg",
+     "Category": "Top Movie"
+    },
+    {"id": 4,
+     "imgsrc": "/static/images/4.jpg",
+     "Category": "Action Movie"
+    }
+]

@@ -1,15 +1,15 @@
-import React from 'react'
-import movies from '../assets/pelicula.json'
+import React, { useEffect, useState } from 'react';
 import Genre from './Genre'
 import './MovieMain.css'
 
-export const MovieMain = () => {
+export const MovieMain = ({peliculas}) => {
+  
   return (
     <div className='movie-main-container' >
-        <img src={movies.imgsrc} alt=""/>
-        <Genre movies = {movies}/>
+        <img src={"https://image.tmdb.org/t/p/w500"+peliculas.poster_path} alt="" />
+        <Genre peliculas={peliculas} />
         <span>
-            {movies.plot}
+            {peliculas.overview}
         </span>
     </div>
   )

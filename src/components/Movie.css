@@ -1,0 +1,7 @@
+.movie-poster-container{
+    display: flex;
+    width: 96px;
+    height: 121px;
+    border-radius: 17px;
+    margin-right: 24px;
+}

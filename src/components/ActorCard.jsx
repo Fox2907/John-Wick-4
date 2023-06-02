@@ -1,6 +1,5 @@
 import React from 'react'
 import './ActorCard.css'
-//import actor from '../assets/actor.json'
 
 export const ActorCard = (props) => {
   const actor = props.actor
