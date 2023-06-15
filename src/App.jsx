@@ -11,15 +11,15 @@ import { getMovies } from './services/movies';
 import { getMovieDBCategories } from './services/themoviedb';
 
 function App() {
-  // const [peliculas, setMovies] = useState([]);
+  const [peliculas, setMovies] = useState([]);
   const [categories, setMoviesCat] = useState([]);
 
   useEffect(() => {
-    getMovieDBCategories("now_playing").then((data)=> setMoviesCat(data))
+    getMovieDBCategories("now_playing").then((data)=> setMoviesCat(data.results))
   }, []);
-  /* useEffect(() => {
+  useEffect(() => {
     getMovies("The X Files").then((data)=> setMovies(data))
-  }, []); */
+  }, []);
 
   /* useEffect(() => {
     getMovieDB("tt0120902").then((data)=> setMovies(data))

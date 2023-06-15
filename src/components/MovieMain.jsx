@@ -6,10 +6,10 @@ export const MovieMain = ({peliculas}) => {
   
   return (
     <div className='movie-main-container' >
-        <img src={"https://image.tmdb.org/t/p/w500"+peliculas.poster_path} alt="" />
+        <img src={peliculas.Poster} alt="" />
         <Genre peliculas={peliculas} />
         <span>
-            {peliculas.overview}
+            {peliculas.Plot}
         </span>
     </div>
   )

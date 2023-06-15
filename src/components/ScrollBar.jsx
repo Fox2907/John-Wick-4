@@ -3,19 +3,15 @@ import './ScrollBar.css';
 import MovieContainer from './MovieContainer';
 import Movie from './Movie';
 
-const ScrollBar = () => {
+const ScrollBar = ({categories}) => {
   return (
     <div className="scroll-container">
       <div className='peliculas'>
-        <Movie/>
-        <Movie />
-        <Movie />
-        <Movie />
-        <Movie />
-        <Movie />
-        <Movie />
-        <Movie />
-        <Movie />
+        {
+          categories.map((categoria)=>{
+            return <Movie categoria={categoria}/> 
+          })
+        }
       </div>
       
     </div>

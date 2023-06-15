@@ -5,15 +5,13 @@ import MenuMovie from './MenuMovie'
 import ScrollBar from './ScrollBar'
 import MovieContainer from './MovieContainer'
 
-const MoviesScreen = () => {
+const MoviesScreen = ({categories}) => {
   return (
     <div className='movie-screen'>
         <BarraBusqueda/>
-        <MovieContainer />
-        <MovieContainer />
-        <MovieContainer />
-        <MovieContainer />
-        <MovieContainer />
+        <MovieContainer categories={categories} />
+        <MovieContainer categories={categories} />
+        <MovieContainer categories={categories} />
         <MenuMovie/>
     </div>
   )

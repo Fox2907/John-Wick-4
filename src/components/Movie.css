@@ -5,3 +5,11 @@
     border-radius: 17px;
     margin-right: 24px;
 }
+
+.movie-poster-container img{
+    display: flex;
+    width: 96px;
+    height: 121px;
+    border-radius: 17px;
+    margin-right: 24px;
+}

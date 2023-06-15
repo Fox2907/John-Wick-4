@@ -2,6 +2,7 @@
     display: flex;
     padding: 83px 40px 17px;
     justify-content: center;
+    background-color: #fffcf3;
 }
 
 .booking-button-content button {
